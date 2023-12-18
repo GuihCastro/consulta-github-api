@@ -132,12 +132,22 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1.5rem;
+}
+
+.container .profile-data .repositories ul li span {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px;
+  color: #fff;
+  background-color:  blueviolet;
+  border-radius: 5px;
 }
 
 .container .profile-data .repositories ul li a{
   padding: 20px;
   border: 1px solid grey;  
-  margin: 20px;
+  margin: 10px;
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
